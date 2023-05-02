@@ -29,7 +29,7 @@
     - 'git fetch --prune': deletes any remote branches that were deleted
 - 'git branch -d <NAME>': delete branch on your local machine
 
-
+- pull request will auto update when you push the branch again
 
 
 
