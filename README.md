@@ -82,3 +82,4 @@ git push origin conflict_branch_1
 
 
 Changes to b2 commit 1
+Changes to b2 commit 2
