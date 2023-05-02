@@ -48,7 +48,29 @@
 -'git switch <BRANCH>
 - 'git rebase main':command to incorporate main into current branch
 
+Code to simulate conflicts:
 
+git checkout -b conflict_branch_1
+echo "Changes to b1 commit 1" >> README.md
+git status
+git add README.md
+git commit -m "b1 c1"
+echo "Changes to b1 commit 2" >> README.md
+git add README.md
+git commit -m "b1 c2"
+
+git checkout main
+
+git checkout -b conflict_branch_2
+echo "Changes to b2 commit 1" >> README.md
+git add README.md
+git commit -m "b2 c1"
+echo "Changes to b2 commit 2" >> README.md
+git add README.md
+git commit -m "b2 c2"
+
+git push origin conflict_branch_2
+git push origin conflict_branch_1
 
 
 
