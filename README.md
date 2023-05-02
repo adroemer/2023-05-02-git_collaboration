@@ -1,8 +1,12 @@
 # 2023-05-02-git_collaboration
 
-##
+## Exercise 1
+
+## Creating local repositories
 - 'git clone <URL>' : "downloads the repository to the current directory
 - 'git init' : initializes the current directory for Git
+
+## Creating local branches
 
 - 'git branch<name>' : creates a branch where HEAD is
 - 'git branch -a':  list all the branches
