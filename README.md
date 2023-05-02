@@ -40,6 +40,15 @@
 
 - pull request will auto update when you push the branch again
 
+## Rebase
+
+- 'git fetch --prune'
+- 'git switch main'
+- git pull origina main'
+-'git switch <BRANCH>
+- 'git rebase main':command to incorporate main into current branch
+
+
 
 
 
