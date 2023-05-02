@@ -9,6 +9,33 @@
 - 'git switch <NAME>' : moves HEAD / switches your branch to <NAME>
 - 'git checkout <NAME>': older way to switch branches
 
+## Exercise #2
+-create a branch 'branch_defs'
+- edit README
+    - 'git log --oneline --graph --all'
+    - 'git push'
+    - pull request
+- add/commit changes
+- push branch
+- create the PR
+-merge the PR
+- sync our local 'main' with 'origin/main'
+- 'fetch --prune'
+- delete local branch
+
+- 'git log --oneline --graph --all' : show you a decorated history
+- 'git push  <REMOTE> <BRANCH': push a brnach to the remote, par attention to what branch you're working on
+- 'git fetch' updates the lit log / history
+    - 'git fetch --prune': deletes any remote branches that were deleted
+- 'git branch -d <NAME>': delete branch on your local machine
+
+
+
+
+
+
+
+
 
 
 
